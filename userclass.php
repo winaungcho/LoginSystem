@@ -384,7 +384,7 @@ class LoginSystem extends Users{
 if (!isset($mypage)){
 session_start();
 //$logsys = new LoginSystem();
-$logsys = new LoginSystem("localhost", "u739095826_user", "aungcho786", "u739095826_membe");
+$logsys = new LoginSystem("localhost", "user", "password", "databasename");
 $logsys->runsystem();
 
 ?>
