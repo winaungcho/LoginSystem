@@ -25,7 +25,7 @@ $mypage=1;
 include("userclass.php");
 session_start();
 //$logsys = new LoginSystem();
-$logsys = new LoginSystem("localhost", "u739095826_user", "aungcho786", "u739095826_membe");
+$logsys = new LoginSystem("localhost", "_user", "password", "database");
 $logsys->runsystem();
 
 ?>
